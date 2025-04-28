@@ -8,6 +8,8 @@ Bu proje, kullanıcılardan alınan doğal dil isteklerine göre Python kodu ür
 
 API, Docker imajı olarak paketlenmiş, Kubernetes üzerinde çalışacak şekilde dağıtılmıştır.
 
+Docker Hub imaj linki: https://hub.docker.com/r/farukiince/ai-code-generator  
+
 ## 🛠️ Kullanılan Teknolojiler
 
 *   Python 3.10
@@ -21,7 +23,6 @@ API, Docker imajı olarak paketlenmiş, Kubernetes üzerinde çalışacak şekil
 
 ### 1. Ön Gereksinimler
 
-*   Docker Desktop (Mac/Windows/Linux)
 *   Minikube
 *   kubectl
 *   Ollama (Llama3 modeli)
