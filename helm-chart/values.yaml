@@ -1,0 +1,20 @@
+replicaCount: 1
+
+image:
+  repository: ai-code-generator
+  pullPolicy: Never
+  tag: "latest"
+
+service:
+  type: NodePort
+  port: 5001
+
+containerPort: 5001
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
